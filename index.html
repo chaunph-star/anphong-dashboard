@@ -119,10 +119,10 @@ body{background:var(--bg);color:#1e293b;font-family:-apple-system,'Segoe UI',san
     <table class="tbl">
       <thead>
         <tr>
-          <th>Camp</th><th>SKU</th><th>Loại</th><th style="background:#fafafa;min-width:110px">Đánh giá</th>
-          <th style="background:#fffbeb;color:#854d0e">Ads hôm qua</th><th style="background:#fffbeb;color:#854d0e">Đơn</th><th style="background:#fffbeb;color:#854d0e">DT</th>
-          <th style="background:#eff6ff;color:#1d4ed8">Ads 7n</th><th style="background:#eff6ff;color:#1d4ed8">Đơn</th><th style="background:#eff6ff;color:#1d4ed8">DT</th>
-          <th style="background:#f0fdf4;color:#166534">Ads 30n</th><th style="background:#f0fdf4;color:#166534">Đơn</th><th style="background:#f0fdf4;color:#166534">DT</th>
+          <th>SKU</th><th>Danh sách camp</th>
+          <th style="background:#fffbeb;color:#854d0e">Ads hôm qua</th><th style="background:#fffbeb;color:#854d0e">Đơn thực</th><th style="background:#fffbeb;color:#854d0e">CPA ngày</th><th style="background:#fffbeb;color:#854d0e">Đánh giá ngày</th>
+          <th style="background:#eff6ff;color:#1d4ed8">Ads 7N</th><th style="background:#eff6ff;color:#1d4ed8">Đơn 7N</th><th style="background:#eff6ff;color:#1d4ed8">CPA 7N</th><th style="background:#eff6ff;color:#1d4ed8">Đánh giá 7N</th>
+          <th>Khuyến nghị</th>
         </tr>
       </thead>
       <tbody id="campBody"></tbody>
@@ -229,49 +229,56 @@ function renderSKU(){
   </tr>`).join('');
 }
 
-function evalCamp(c){
-  const r7=(c.dt7&&c.s7)?c.dt7/c.s7:0,r30=(c.dt30&&c.s30)?c.dt30/c.s30:0;
-  const cpo30=c.d30>0?c.s30/c.d30:9e6;
-  if(c.d7===0&&c.d30===0&&c.s30>0)return{cls:'ev-off',label:'❌ Tắt',adv:'Không đơn 30n'};
-  if(c.sku==='VLN'&&c.d7===0)return{cls:'ev-fix',label:'📊 Fix pixel',adv:'Đơn qua inbox'};
-  if(c.type==='💬'&&r30>0&&r30<2)return{cls:'ev-off',label:'❌ Tắt/Chuyển',adv:'TN ROAS '+r30.toFixed(1)+'x thấp'};
-  let sc=0;
-  if(r30>=3.5)sc+=5;else if(r30>=3)sc+=4;else if(r30>=2.5)sc+=3;else if(r30>=2)sc+=2;else if(r30>=1.5)sc+=1;
-  if(r7>0&&r30>0){if(r7>=r30*1.1)sc+=1;else if(r7<r30*.8)sc-=1;}else if(!c.d7&&c.d30)sc-=.5;
-  if(cpo30<80000)sc+=1.5;else if(cpo30<130000)sc+=.5;else if(cpo30>200000)sc-=1;
-  if(sc>=6)return{cls:'ev-up',label:'🔥 Tăng NS',adv:'ROAS 30n: '+r30.toFixed(1)+'x'};
-  if(sc>=4)return{cls:'ev-ok',label:'✅ Giữ NS',adv:'ROAS 30n: '+r30.toFixed(1)+'x'};
-  if(sc>=2)return{cls:'ev-watch',label:'⚠️ Giảm NS',adv:'ROAS yếu hoặc xấu đi'};
-  return{cls:'ev-down',label:'⬇️ Giảm mạnh',adv:'ROAS thấp liên tục'};
+function evalCPA(cpa,aov,orders){
+  if(!orders||!cpa)return{label:'—',cls:''};
+  const pct=aov>0?cpa/aov:1;
+  if(pct<0.15||cpa<50000)return{label:'🔥 Rất tốt',cls:'ev-up'};
+  if(pct<0.25||cpa<90000)return{label:'✅ Tốt',cls:'ev-ok'};
+  if(pct<0.40||cpa<150000)return{label:'⚠️ Xem lại',cls:'ev-watch'};
+  return{label:'❌ Tắt',cls:'ev-off'};
+}
+function recommend(e1,e7){
+  if(e1.cls==='ev-up'&&e7.cls==='ev-up')return'🚀 Tăng NS mạnh';
+  if(e1.cls==='ev-up')return'📈 Tăng nhẹ, theo dõi 7N';
+  if(e1.cls==='ev-ok'&&(e7.cls==='ev-up'||e7.cls==='ev-ok'))return'✅ Giữ nguyên';
+  if(e1.cls==='ev-off'&&e7.cls==='ev-off')return'🛑 Tắt, xem lại SP';
+  if(e1.cls==='ev-off')return'⬇️ Giảm NS 30-50%';
+  if(e1.cls==='ev-watch')return'⚠️ Giảm NS 20-30%';
+  return'👀 Theo dõi thêm';
 }
 
 function renderCamps(){
-  if(!D.campaigns){document.getElementById('campBody').innerHTML='<tr><td colspan="13" style="text-align:center;color:var(--gray);padding:20px">Chưa có dữ liệu camp</td></tr>';return;}
-  const tm={'🛒':'tsales','💬':'tmsg','🛍️':'tbuy'};
-  const tn={'🛒':'DS','💬':'TN','🛍️':'LM'};
-  const isMsg=t=>t==='💬';
-  document.getElementById('campBody').innerHTML=D.campaigns.map(c=>{
-    const ev=evalCamp(c);
-    const cpd7=c.d7>0?Math.round(c.s7/c.d7):0,cpd30=c.d30>0?Math.round(c.s30/c.d30):0;
-    const cpm7=c.m7>0?Math.round(c.s7/c.m7):0;
-    const tn7=isMsg(c.type)?(c.m7?`<td class="${cpaC(cpm7)}">${fmtA(cpm7)}`:'<td>—')+'</td>':'';
+  if(!D.campaigns){document.getElementById('campBody').innerHTML='<tr><td colspan="11" style="text-align:center;color:var(--gray);padding:20px">Chưa có dữ liệu camp</td></tr>';return;}
+  const skuMap={};
+  D.campaigns.forEach(c=>{
+    if(!skuMap[c.sku])skuMap[c.sku]={sku:c.sku,names:[],s1:0,s7:0};
+    skuMap[c.sku].names.push(c.n);
+    skuMap[c.sku].s1+=(c.s1||0);
+    skuMap[c.sku].s7+=(c.s7||0);
+  });
+  const groups=Object.values(skuMap).sort((a,b)=>b.s1-a.s1);
+  const cpaColor=v=>!v?'var(--gray)':v<80000?'var(--green)':v<150000?'#d97706':'var(--red)';
+  document.getElementById('campBody').innerHTML=groups.map(g=>{
+    const sd=(D.skus||[]).find(s=>s.sku===g.sku)||{};
+    const ord1=sd.orders||0, ord7=sd.orders7||0;
+    const aov1=ord1>0&&sd.rev?Math.round(sd.rev/ord1):0;
+    const aov7=ord7>0&&sd.rev7?Math.round(sd.rev7/ord7):0;
+    const cpa1=ord1>0?Math.round(g.s1/ord1):0;
+    const cpa7=ord7>0?Math.round(g.s7/ord7):0;
+    const e1=evalCPA(cpa1,aov1,ord1), e7=evalCPA(cpa7,aov7,ord7);
+    const rec=recommend(e1,e7);
     return`<tr>
-      <td title="${c.n}" style="max-width:130px;overflow:hidden;text-overflow:ellipsis"><b style="font-size:10.5px">${c.n}</b></td>
-      <td><span class="badge bB" style="font-size:9px">${c.sku}</span></td>
-      <td><span class="${tm[c.type]||'tbuy'}">${c.type} ${tn[c.type]||''}</span></td>
-      <td style="min-width:110px;border-right:2px solid var(--border)">
-        <span class="ev ${ev.cls}">${ev.label}</span>
-        <div class="ev-adv">${ev.adv}</div>
-      </td>
-      <td style="background:#fffde7">${c.s1?fmtA(c.s1):'—'}</td>
-      <td style="background:#fffde7">${c.d1||'—'}</td>
-      <td class="${dtC(c.s1,c.dt1)}" style="background:#fffde7">${c.dt1?fmtA(c.dt1):'—'}</td>
-      <td style="background:#eff6ff">${c.s7?fmtA(c.s7):'—'}</td>
-      <td style="background:#eff6ff">${c.d7||'—'}</td>
-      <td class="${dtC(c.s7,c.dt7)}" style="background:#eff6ff">${c.dt7?fmtA(c.dt7):'—'}</td>
-      <td style="background:#f0fdf4">${c.s30?fmtA(c.s30):'—'}</td>
-      <td style="background:#f0fdf4">${c.d30||'—'}</td>
-      <td class="${dtC(c.s30,c.dt30)}" style="background:#f0fdf4">${c.dt30?fmtA(c.dt30):'—'}</td>
+      <td><span class="badge bB" style="font-size:10px">${g.sku}</span><div style="font-size:9px;color:var(--gray)">${g.names.length} camp</div></td>
+      <td style="font-size:9px;color:var(--gray);max-width:130px">${g.names.map(n=>n.slice(0,24)).join('<br>')}</td>
+      <td style="background:#fffde7;font-weight:600">${g.s1?fmtA(g.s1):'—'}</td>
+      <td style="background:#fffde7">${ord1||'—'}</td>
+      <td style="background:#fffde7;font-weight:700;color:${cpaColor(cpa1)}">${cpa1?fmtA(cpa1):'—'}</td>
+      <td style="background:#fffde7"><span class="ev ${e1.cls}" style="white-space:nowrap">${e1.label}</span></td>
+      <td style="background:#eff6ff">${g.s7?fmtA(g.s7):'—'}</td>
+      <td style="background:#eff6ff">${ord7||'—'}</td>
+      <td style="background:#eff6ff;font-weight:700;color:${cpaColor(cpa7)}">${cpa7?fmtA(cpa7):'—'}</td>
+      <td style="background:#eff6ff"><span class="ev ${e7.cls}" style="white-space:nowrap">${e7.label}</span></td>
+      <td style="font-size:10.5px;font-weight:600;white-space:nowrap">${rec}</td>
     </tr>`;
   }).join('');
 }
