@@ -104,8 +104,8 @@ body{background:var(--bg);color:#1e293b;font-family:-apple-system,'Segoe UI',san
   <div class="card tbl-wrap">
     <table class="tbl">
       <thead><tr>
-        <th>SKU</th><th>DT hôm nay</th><th style="color:var(--purple)">Ads</th><th>LN</th>
-        <th class="sep" style="color:var(--blue)">DT 7n</th><th style="color:var(--purple)">Ads 7n</th><th style="color:var(--blue)">LN 7n</th>
+        <th>SKU</th><th>DT hôm nay</th><th style="color:var(--purple)">Ads</th><th style="color:var(--orange)">CPA</th><th>LN</th>
+        <th class="sep" style="color:var(--blue)">DT 7n</th><th style="color:var(--purple)">Ads 7n</th><th style="color:var(--orange)">CPA 7n</th><th style="color:var(--blue)">LN 7n</th>
         <th>Hoàn%</th><th>Nhóm</th>
       </tr></thead>
       <tbody id="skuBody"></tbody>
@@ -220,9 +220,11 @@ function renderSKU(){
     <td><b>${s.sku}</b></td>
     <td>${s.rev?fmtA(s.rev):'—'}</td>
     <td style="color:var(--purple)">${s.ads?fmtA(s.ads):'—'}</td>
+    <td style="color:${s.orders>0&&s.ads/s.orders<80000?'var(--green)':s.orders>0&&s.ads/s.orders<150000?'#d97706':'var(--red)'};font-weight:700">${s.orders>0?fmtA(Math.round(s.ads/s.orders)):'—'}</td>
     <td style="color:${(s.net||0)>=0?'var(--green)':'var(--red)'};font-weight:700">${s.rev||s.net?((s.net>=0?'+':'')+fmtA(s.net)):'—'}</td>
     <td class="sep" style="color:var(--blue)">${s.rev7?fmtA(s.rev7):'—'}</td>
     <td style="color:var(--purple)">${s.ads7?fmtA(s.ads7):'—'}</td>
+    <td style="color:${s.orders7>0&&s.ads7/s.orders7<80000?'var(--green)':s.orders7>0&&s.ads7/s.orders7<150000?'#d97706':'var(--red)'};font-weight:700">${s.orders7>0?fmtA(Math.round(s.ads7/s.orders7)):'—'}</td>
     <td style="color:${(s.net7||0)>=0?'var(--green)':'var(--red)'};font-weight:700">${s.net7?((s.net7>=0?'+':'')+fmtA(s.net7)):'—'}</td>
     <td style="color:${s.ret_pct>25?'var(--red)':s.ret_pct>15?'var(--orange)':'var(--green)'};font-weight:700">${s.ret_pct?s.ret_pct+'%':'—'}</td>
     <td><span class="badge ${gm[s.group]||'bB'}">${s.group}</span></td>
