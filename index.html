@@ -319,28 +319,33 @@ function renderAlerts(){
   const tops=S.filter(s=>s.roas>=4&&(s.net||0)>0).sort((a,b)=>b.roas-a.roas);
   if(tops.length)alerts.push({t:'ok',icon:'ðŸš€',h:`Scale: ${tops.map(s=>s.sku).join(', ')}`,b:tops.map(s=>`${s.sku} ROAS ${s.roas}x â†’ tÄƒng budget`).join(' | ')});
   const losers=S.filter(s=>(s.net||0)<0&&(s.ads||0)>0);
-  if(losers.length)alerts.push({t:'warn',icon:'ðŸ“‰',h:`Lá»—: ${losers.map(s=>s.sku).join(', ')}`,b:`Tá»•ng lá»— ${fmtA(losers.reduce((a,s)=>a+(s.net||0),0))}`});
-  const highAds=S.filter(s=>s.rev>0&&s.ads/s.rev>0.30);
-  if(highAds.length)alerts.push({t:'warn',icon:'ðŸ’¸',h:`Ads>30% DT: ${highAds.map(s=>s.sku).join(', ')}`,b:highAds.map(s=>`${s.sku} ${Math.round(s.ads/s.rev*100)}%`).join(' | ')});
-  if(!alerts.length)alerts.push({t:'ok',icon:'âœ…',h:'KhÃ´ng cÃ³ cáº£nh bÃ¡o',b:'Má»i thá»© á»•n Ä‘á»‹nh.'});
-  box.innerHTML=alerts.map(a=>`<div class="alert alert-${a.t==='warn'?'warn':a.t==='ok'?'ok':'info'}">
-    <div class="ah">${a.icon} ${a.h}</div><div class="ab">${a.b}</div></div>`).join('');
-}
-
-function render(){
-  document.getElementById('metaLbl').textContent='ðŸ“… '+D.report_date+' â€¢ '+D.generated_at;
-  document.getElementById('footer').textContent='LN Ä‘Ã£ trá»« ads. '+D.generated_at;
-  document.getElementById('kpiGrid').innerHTML='';
-  renderKPIs(); renderCharts();
-  // Reset lazy tabs
-  document.getElementById('skuBody').innerHTML='';
-  document.getElementById('campBody').innerHTML='';
-  document.getElementById('alertBox').innerHTML='';
-  if(activeTab===1)renderSKU();
-  if(activeTab===2)renderCamps();
-  if(activeTab===3)renderAlerts();
-}
-loadData();
-</script>
-</body>
-</html>
+  if(losers.length)alerts.push({t:'warn',icon'ü'äâIË˜8nåÎˆ	ÛÜÙ\œË›X\
+ÏOœËœÚÝJKš›Ú[Š	Ë	Ê_XŽ˜8nå[™È8nåÈ	Ù›]JÜÙ\œËœ™YXÙJ
+KÊOO˜JÊË›™]
+K
+J_XJNÂˆÛÛœÝYÚYÏTË™š[\ŠÏOœËœ™]Œ	‰œË˜YËÜËœ™]ŒŒÌ
+NÂˆYŠYÚYË›[™Ý
+X[\Ëœ\Ú
+Ý‰ÝØ\›‰ËXÛÛŽ‰ü'ä®	Ë˜YÏŒÌ	Hˆ	ÚYÚYË›X\
+ÏOœËœÚÝJKš›Ú[Š	Ë	Ê_XŽšYÚYË›X\
+ÏO˜	ÜËœÚÝ_H	ÓX]œ›Ý[™
+Ë˜YËÜËœ™]ŠŒL
+_IX
+Kš›Ú[Š	È	Ê_JNÂˆYŠX[\Ë›[™Ý
+X[\Ëœ\Ú
+Ý‰ÛÚÉËXÛÛŽ‰ø§!IË‰ÒÚ0í™ÈðìÈøn¨Ûš°è[ÉËŽ‰ÓxnãZH8nêH8nå[ˆ1$xnâÛš‰ßJNÂˆ›Þš[›™\’SX[\Ë›X\
+OO˜]ˆÛ\ÜÏH˜[\[\IØKOOIÝØ\›‰ÏÉÝØ\›‰Î˜KOOIÛÚÉÏÉÛÚÉÎ‰Ú[™›ÉßH‚ˆ]ˆÛ\ÜÏH˜Z‰ØKšXÛÛŸH	ØKšOÙ]]ˆÛ\ÜÏH˜Xˆ‰ØK˜ŸOÙ]Ù]˜
+Kš›Ú[Š	ÉÊNÂŸB‚™[˜Ý[Ûˆ™[™\Š
+^ÂˆØÝ[Y[™Ù][[Y[žRY
+	ÛY]S›	ÊK^ÛÛ[Iü'äáH	ÊÑœ™\ÜÙ]JÉÈ8 (ˆ	ÊÑ™Ù[™\˜]YØ]ÂˆØÝ[Y[™Ù][[Y[žRY
+	Ù›ÛÝ\‰ÊK^ÛÛ[IÓˆ1$pèÈ¸nêÈYËˆ	ÊÑ™Ù[™\˜]YØ]ÂˆØÝ[Y[™Ù][[Y[žRY
+	ÚÜQÜšY	ÊKš[›™\’SIÉÎÂˆ™[™\’Ô\Ê
+NÈ™[™\Ú\Ê
+NÂˆËÈ™\Ù]^žHXœÂˆØÝ[Y[™Ù][[Y[žRY
+	ÜÚÝP›ÙIÊKš[›™\’SIÉÎÂˆØÝ[Y[™Ù][[Y[žRY
+	ØØ[\›ÙIÊKš[›™\’SIÉÎÂˆØÝ[Y[™Ù][[Y[žRY
+	Ø[\›Þ	ÊKš[›™\’SIÉÎÂˆYŠXÝ]™UXOOLJ\™[™\”ÒÕJ
+NÂˆYŠXÝ]™UXOOLŠ\™[™\Ø[\Ê
+NÂˆYŠXÝ]™UXOOLÊ\™[™\[\Ê
+NÂŸB›ØY]J
+NÂÜØÜš\‚Ø›ÙO‚/html>
