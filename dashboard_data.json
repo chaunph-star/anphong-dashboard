@@ -1,454 +1,492 @@
 {
-  "report_date": "28/08/2026",
-  "generated_at": "2026-08-28 auto",
+  "report_date": "29/08/2026",
+  "generated_at": "2026-08-29 auto",
   "today": {
-    "rev": 10217000,
-    "net": 1534834,
-    "orders": 36,
-    "ads": 2020447,
-    "hoan_pct": 23.1,
-    "margin_pct": 15.0,
-    "ads_pct": 19.8,
-    "roas": 5.1
+    "rev": 10815000,
+    "net": 2383139,
+    "orders": 35,
+    "ads": 1750661,
+    "hoan_pct": 24.6,
+    "margin_pct": 22.0,
+    "ads_pct": 16.2,
+    "roas": 6.18
   },
   "week": {
-    "rev": 80013000,
-    "net": 9559159,
-    "orders": 246,
-    "ads": 14955483,
-    "margin_pct": 11.9,
-    "ads_pct": 18.7
+    "rev": 81766000,
+    "net": 16868979,
+    "orders": 252,
+    "ads": 14922244,
+    "margin_pct": 20.6,
+    "ads_pct": 18.2
   },
   "month": {
-    "rev": 366263000,
-    "net": 51233469,
-    "orders": 1114,
-    "ads": 64103137,
-    "margin_pct": 14.0,
-    "ads_pct": 17.5
+    "rev": 366661000,
+    "net": 79865178,
+    "orders": 1117,
+    "ads": 61561138,
+    "margin_pct": 21.8,
+    "ads_pct": 16.8
   },
   "trend_30": [
     {
-      "date": "30/07",
-      "rev": 10417000,
-      "orders": 32,
-      "net": 2182962
-    },
-    {
       "date": "31/07",
       "rev": 13611000,
+      "net": 3791262,
       "orders": 35,
-      "net": 3631962
+      "hoan_pct": 24.9
     },
     {
       "date": "01/08",
       "rev": 6822000,
+      "net": 762212,
       "orders": 21,
-      "net": 699962
+      "hoan_pct": 25.4
     },
     {
       "date": "02/08",
       "rev": 11431000,
+      "net": 2761115,
       "orders": 33,
-      "net": 2680962
+      "hoan_pct": 25.7
     },
     {
       "date": "03/08",
       "rev": 17552000,
+      "net": 6847357,
       "orders": 49,
-      "net": 6661962
+      "hoan_pct": 24.6
     },
     {
       "date": "04/08",
       "rev": 9142000,
+      "net": 1732953,
       "orders": 29,
-      "net": 1617962
+      "hoan_pct": 24.8
     },
     {
       "date": "05/08",
       "rev": 9404000,
+      "net": 2202660,
       "orders": 28,
-      "net": 2061962
+      "hoan_pct": 24.4
     },
     {
       "date": "06/08",
       "rev": 16567000,
+      "net": 4230662,
       "orders": 46,
-      "net": 4421962
+      "hoan_pct": 28.9
     },
     {
       "date": "07/08",
       "rev": 9653000,
+      "net": 2223434,
       "orders": 33,
-      "net": 2078962
+      "hoan_pct": 24.4
     },
     {
       "date": "08/08",
       "rev": 7947000,
+      "net": 1250407,
       "orders": 22,
-      "net": 1138962
+      "hoan_pct": 24.5
     },
     {
       "date": "09/08",
       "rev": 17191000,
+      "net": 5272553,
       "orders": 47,
-      "net": 5163962
+      "hoan_pct": 25.9
     },
     {
       "date": "10/08",
       "rev": 11245000,
+      "net": 2949181,
       "orders": 36,
-      "net": 2864962
+      "hoan_pct": 25.6
     },
     {
       "date": "11/08",
       "rev": 9788000,
+      "net": 1974176,
       "orders": 29,
-      "net": 1853962
+      "hoan_pct": 24.8
     },
     {
       "date": "12/08",
       "rev": 10737000,
+      "net": 2442076,
       "orders": 34,
-      "net": 2289962
+      "hoan_pct": 24.5
     },
     {
       "date": "13/08",
       "rev": 13846000,
+      "net": 3898857,
       "orders": 44,
-      "net": 3717962
+      "hoan_pct": 24.7
     },
     {
       "date": "14/08",
       "rev": 13441000,
+      "net": 5060284,
       "orders": 46,
-      "net": 5214962
+      "hoan_pct": 25.1
     },
     {
       "date": "15/08",
       "rev": 10459000,
+      "net": 2472752,
       "orders": 34,
-      "net": 2274962
+      "hoan_pct": 23.7
     },
     {
       "date": "16/08",
       "rev": 27945000,
+      "net": 10757340,
       "orders": 87,
-      "net": 11420962
+      "hoan_pct": 24.5
     },
     {
       "date": "17/08",
       "rev": 13224000,
+      "net": 4100334,
       "orders": 41,
-      "net": 3968962
+      "hoan_pct": 25.2
     },
     {
       "date": "18/08",
       "rev": 10824000,
+      "net": 2656366,
       "orders": 31,
-      "net": 2434962
+      "hoan_pct": 23.4
     },
     {
       "date": "19/08",
       "rev": 13277000,
+      "net": 3926070,
       "orders": 46,
-      "net": 3587962
+      "hoan_pct": 22.5
     },
     {
       "date": "20/08",
       "rev": 11411000,
+      "net": 2932305,
       "orders": 38,
-      "net": 2651962
+      "hoan_pct": 22.7
     },
     {
       "date": "21/08",
       "rev": 10316000,
+      "net": 4162318,
       "orders": 27,
-      "net": 4263962
+      "hoan_pct": 22.8
     },
     {
       "date": "22/08",
       "rev": 9062000,
+      "net": 1932253,
       "orders": 29,
-      "net": 1786962
+      "hoan_pct": 24.2
     },
     {
       "date": "23/08",
       "rev": 9281000,
+      "net": 1680946,
       "orders": 31,
-      "net": 1583962
+      "hoan_pct": 25.1
     },
     {
       "date": "24/08",
       "rev": 18585000,
+      "net": 6495679,
       "orders": 48,
-      "net": 6237962
+      "hoan_pct": 24.5
     },
     {
       "date": "25/08",
       "rev": 4084000,
+      "net": -707246,
       "orders": 13,
-      "net": -814037
+      "hoan_pct": 22.4
     },
     {
       "date": "26/08",
       "rev": 18623000,
+      "net": 6583569,
       "orders": 59,
-      "net": 6227962
+      "hoan_pct": 23.6
     },
     {
       "date": "27/08",
       "rev": 10161000,
+      "net": 2352910,
       "orders": 30,
-      "net": 2115962
+      "hoan_pct": 22.9
     },
     {
       "date": "28/08",
       "rev": 10217000,
+      "net": 1924019,
       "orders": 36,
-      "net": 1534834
+      "hoan_pct": 23.1
+    },
+    {
+      "date": "29/08",
+      "rev": 10815000,
+      "net": 2383139,
+      "orders": 35,
+      "hoan_pct": 24.6
     }
   ],
-  "skus": [
-    {
-      "sku": "P03",
-      "rev": 2271000,
-      "net": 349345,
-      "ads": 260600,
-      "orders": 8,
-      "margin": 15.4,
-      "roas": 6.73,
-      "ret_pct": 22.8,
-      "group": "A",
-      "rev7": 19973000,
-      "ads7": 2107554,
-      "net7": 2985169,
-      "orders7": 61,
-      "rev30": 75348000,
-      "ads30": 8920057,
-      "net30": 11189061,
-      "orders30": 244
+  "skus": {
+    "ADPT": {
+      "ret_rate": 25.0,
+      "rev_7d": 0,
+      "orders_7d": 0,
+      "net_7d": 0,
+      "rev_30d": 668000,
+      "orders_30d": 1,
+      "net_30d": 161425
     },
-    {
-      "sku": "AT1",
-      "rev": 2170000,
-      "net": 420028,
-      "ads": 317992,
-      "orders": 8,
-      "margin": 19.4,
-      "roas": 5.68,
-      "ret_pct": 16.8,
-      "group": "A",
-      "rev7": 12395000,
-      "ads7": 2351585,
-      "net7": 1912201,
-      "orders7": 49,
-      "rev30": 58770000,
-      "ads30": 10133033,
-      "net30": 11426771,
-      "orders30": 211
+    "AHC": {
+      "ret_rate": 13.8,
+      "rev_7d": 1586000,
+      "orders_7d": 3,
+      "net_7d": 452585,
+      "rev_30d": 1975000,
+      "orders_30d": 4,
+      "net_30d": 587940
     },
-    {
-      "sku": "Z88",
-      "rev": 2080000,
-      "net": 266398,
-      "ads": 325066,
-      "orders": 9,
-      "margin": 12.8,
-      "roas": 4.25,
-      "ret_pct": 33.5,
-      "group": "A",
-      "rev7": 13321000,
-      "ads7": 2458408,
-      "net7": 1160088,
-      "orders7": 49,
-      "rev30": 57833000,
-      "ads30": 10481981,
-      "net30": 5629122,
-      "orders30": 210
+    "APH": {
+      "ret_rate": 16.7,
+      "rev_7d": 1216000,
+      "orders_7d": 3,
+      "net_7d": 314791,
+      "rev_30d": 2772000,
+      "orders_30d": 7,
+      "net_30d": 755337
     },
-    {
-      "sku": "VAT",
-      "rev": 1623000,
-      "net": 81169,
-      "ads": 386406,
-      "orders": 5,
-      "margin": 5.0,
-      "roas": 3.26,
-      "ret_pct": 22.5,
-      "group": "B",
-      "rev7": 11152000,
-      "ads7": 2807485,
-      "net7": 489315,
-      "orders7": 30,
-      "rev30": 58559000,
-      "ads30": 13059040,
-      "net30": 4667935,
-      "orders30": 163
+    "AT1": {
+      "ret_rate": 16.8,
+      "rev_1d": 1712000,
+      "orders_1d": 6,
+      "net_1d": 447413,
+      "rev_7d": 12564000,
+      "orders_7d": 49,
+      "net_7d": 2939877,
+      "rev_30d": 58939000,
+      "orders_30d": 211,
+      "net_30d": 14972620
     },
-    {
-      "sku": "BLN",
-      "rev": 1485000,
-      "net": 381617,
-      "ads": 183691,
-      "orders": 4,
-      "margin": 25.7,
-      "roas": 6.74,
-      "ret_pct": 16.7,
-      "group": "A",
-      "rev7": 4086000,
-      "ads7": 1380004,
-      "net7": 163260,
-      "orders7": 10,
-      "rev30": 9895000,
-      "ads30": 2977726,
-      "net30": 768608,
-      "orders30": 23
+    "ATH": {
+      "ret_rate": 26.9,
+      "rev_1d": 957000,
+      "orders_1d": 3,
+      "net_1d": 199780,
+      "rev_7d": 4993000,
+      "orders_7d": 14,
+      "net_7d": 967423,
+      "rev_30d": 28450000,
+      "orders_30d": 65,
+      "net_30d": 6178922
     },
-    {
-      "sku": "LTU",
-      "rev": 309000,
-      "net": -36248,
-      "ads": 153498,
-      "orders": 1,
-      "margin": -11.7,
-      "roas": 1.51,
-      "ret_pct": 25.0,
-      "group": "C",
-      "rev7": 3837000,
-      "ads7": 1050956,
-      "net7": 291794,
-      "orders7": 10,
-      "rev30": 20614000,
-      "ads30": 4462615,
-      "net30": 3271885,
-      "orders30": 53
+    "BLN": {
+      "ret_rate": 16.7,
+      "rev_7d": 3468000,
+      "orders_7d": 8,
+      "net_7d": 907225,
+      "rev_30d": 9895000,
+      "orders_30d": 23,
+      "net_30d": 2730055
     },
-    {
-      "sku": "NGO",
-      "rev": 279000,
-      "net": 72525,
-      "ads": 0,
-      "orders": 1,
-      "margin": 26.0,
-      "roas": 0,
-      "ret_pct": 33.2,
-      "group": "ORG",
-      "rev7": 837000,
-      "ads7": 0,
-      "net7": 217576,
-      "orders7": 3,
-      "rev30": 9953000,
-      "ads30": 2243729,
-      "net30": 294514,
-      "orders30": 31
+    "GS": {
+      "ret_rate": 29.2,
+      "rev_7d": 0,
+      "orders_7d": 0,
+      "net_7d": 0,
+      "rev_30d": 952000,
+      "orders_30d": 3,
+      "net_30d": 180257
+    },
+    "KIM": {
+      "ret_rate": 60.7,
+      "rev_7d": 0,
+      "orders_7d": 0,
+      "net_7d": 0,
+      "rev_30d": 2005000,
+      "orders_30d": 5,
+      "net_30d": 35271
+    },
+    "LHA": {
+      "ret_rate": 22.2,
+      "rev_7d": 0,
+      "orders_7d": 0,
+      "net_7d": 0,
+      "rev_30d": 1572000,
+      "orders_30d": 6,
+      "net_30d": 343233
+    },
+    "LTU": {
+      "ret_rate": 25.0,
+      "rev_7d": 3528000,
+      "orders_7d": 9,
+      "net_7d": 737822,
+      "rev_30d": 18571000,
+      "orders_30d": 48,
+      "net_30d": 4144377
+    },
+    "NGO": {
+      "ret_rate": 33.2,
+      "rev_7d": 837000,
+      "orders_7d": 3,
+      "net_7d": 120584,
+      "rev_30d": 9664000,
+      "orders_30d": 30,
+      "net_30d": 1612228
+    },
+    "P03": {
+      "ret_rate": 22.8,
+      "rev_1d": 2928000,
+      "orders_1d": 9,
+      "net_1d": 684416,
+      "rev_7d": 20889000,
+      "orders_7d": 63,
+      "net_7d": 4472452,
+      "rev_30d": 76264000,
+      "orders_30d": 246,
+      "net_30d": 17170348
+    },
+    "TAB": {
+      "ret_rate": 28.0,
+      "rev_1d": 1993000,
+      "orders_1d": 5,
+      "net_1d": 424663,
+      "rev_7d": 3428000,
+      "orders_7d": 9,
+      "net_7d": 652925,
+      "rev_30d": 21697000,
+      "orders_30d": 52,
+      "net_30d": 4533815
+    },
+    "VAT": {
+      "ret_rate": 22.5,
+      "rev_1d": 1713000,
+      "orders_1d": 7,
+      "net_1d": 373704,
+      "rev_7d": 11680000,
+      "orders_7d": 33,
+      "net_7d": 2557567,
+      "rev_30d": 58241000,
+      "orders_30d": 165,
+      "net_30d": 13595863
+    },
+    "VLN": {
+      "ret_rate": 26.9,
+      "rev_7d": 429000,
+      "orders_7d": 1,
+      "net_7d": 86570,
+      "rev_30d": 2943000,
+      "orders_30d": 6,
+      "net_30d": 651483
+    },
+    "Z88": {
+      "ret_rate": 33.5,
+      "rev_1d": 1512000,
+      "orders_1d": 5,
+      "net_1d": 253163,
+      "rev_7d": 13311000,
+      "orders_7d": 49,
+      "net_7d": 1869487,
+      "rev_30d": 57145000,
+      "orders_30d": 208,
+      "net_30d": 8900432
     }
-  ],
+  },
   "campaigns": [
     {
-      "n": "AT01 - Doanh số - Bản sao 2",
-      "sku": "AT1",
-      "s1": 317992,
-      "s7": 2351585,
-      "s30": 10133033
-    },
-    {
-      "n": "VAT - Tuệ An - Bản sao 2",
-      "sku": "VAT",
-      "s1": 202000,
-      "s7": 1405336,
-      "s30": 5970156
-    },
-    {
-      "n": "Z88 lượt mua",
-      "sku": "Z88",
-      "s1": 182700,
-      "s7": 1403634,
-      "s30": 5989267
-    },
-    {
-      "n": "Bà Lai",
-      "sku": "BLN",
-      "s1": 183691,
-      "s7": 1380004,
-      "s30": 2977726
-    },
-    {
-      "n": "An tịnh - Nữ (mã ATH)",
-      "sku": "ATH",
-      "s1": 172419,
-      "s7": 1059632,
-      "s30": 4362872
-    },
-    {
-      "n": "Lãnh tụ nữ",
-      "sku": "LTU",
-      "s1": 153498,
-      "s7": 1050956,
-      "s30": 4462615
-    },
-    {
-      "n": "P03 DA",
-      "sku": "P03",
-      "s1": 130492,
-      "s7": 1070178,
-      "s30": 4447999
-    },
-    {
-      "n": "Z88 lượt mua - Bản sao",
-      "sku": "Z88",
-      "s1": 142366,
-      "s7": 1054774,
-      "s30": 4492714
-    },
-    {
-      "n": "VAT - Tuệ An - Bản sao",
-      "sku": "VAT",
-      "s1": 141223,
-      "s7": 1052796,
-      "s30": 5603232
-    },
-    {
-      "n": "P03 Doanh Số",
-      "sku": "P03",
-      "s1": 130108,
-      "s7": 1037376,
-      "s30": 4472058
-    },
-    {
-      "n": "Tam bảo",
+      "name": "Tam bảo",
       "sku": "TAB",
-      "s1": 125639,
-      "s7": 1040581,
-      "s30": 4532697
+      "spend": 131189,
+      "roas": 8.81
     },
     {
-      "n": "Bài viết VAT HO",
-      "sku": "VAT",
-      "s1": 43183,
-      "s7": 349353,
-      "s30": 1485652
-    },
-    {
-      "n": "Bài viết Pháp phục An Tịnh",
+      "name": "An tịnh - Nữ (ATH)",
       "sku": "ATH",
-      "s1": 0,
-      "s7": 353606,
-      "s30": 1446293
+      "spend": 111081,
+      "roas": 2.87
     },
     {
-      "n": "NGO - Lượt Mua",
-      "sku": "NGO",
-      "s1": 0,
-      "s7": 0,
-      "s30": 2243729
+      "name": "AT01 - Doanh số - Bản sao 2",
+      "sku": "AT1",
+      "spend": 309447,
+      "roas": 1.48
     },
     {
-      "n": "Bài viết Cánh hạc",
-      "sku": "AHC",
-      "s1": 0,
-      "s7": 0,
-      "s30": 790
+      "name": "P03 Doanh Số",
+      "sku": "P03",
+      "spend": 137075,
+      "roas": 1.89
+    },
+    {
+      "name": "P03 DA",
+      "sku": "P03",
+      "spend": 115079,
+      "roas": 2.25
+    },
+    {
+      "name": "Z88 lượt mua - Bản sao",
+      "sku": "Z88",
+      "spend": 112497,
+      "roas": 3.18
+    },
+    {
+      "name": "Z88 lượt mua",
+      "sku": "Z88",
+      "spend": 158916,
+      "roas": 1.13
+    },
+    {
+      "name": "VAT - Tuệ An - Bản sao",
+      "sku": "VAT",
+      "spend": 113944,
+      "roas": 2.19
+    },
+    {
+      "name": "VAT - Tuệ An - Bản sao 2",
+      "sku": "VAT",
+      "spend": 147644,
+      "roas": 0
+    },
+    {
+      "name": "Bài viết ATH",
+      "sku": "ATH",
+      "spend": 34077,
+      "roas": 9.36
+    },
+    {
+      "name": "Bài viết VAT linen",
+      "sku": "VAT",
+      "spend": 36242,
+      "roas": 0
+    },
+    {
+      "name": "Bài viết P03 hành thiền",
+      "sku": "P03",
+      "spend": 37185,
+      "roas": 6.7
+    },
+    {
+      "name": "Lãnh tụ nữ",
+      "sku": "TAB",
+      "spend": 117864,
+      "roas": 0
+    },
+    {
+      "name": "Bà Lai",
+      "sku": "TAB",
+      "spend": 188421,
+      "roas": 0
     }
   ]
 }
