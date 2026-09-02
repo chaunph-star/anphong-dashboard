@@ -122,7 +122,7 @@
       "date": "18/08",
       "rev": 10824000,
       "orders": 31,
-      "net": 2426144
+       "net": 2426144
     },
     {
       "date": "19/08",
@@ -342,11 +342,49 @@
       "ads30": 5898438,
       "net30": 1983571,
       "orders30": 58
+    },
+    {
+      "sku": "KIM",
+      "rev": 0,
+      "net": -128810,
+      "ads": 128810,
+      "orders": 0,
+      "margin": 0,
+      "roas": 0,
+      "ret_pct": 0,
+      "group": "D",
+      "rev7": 0,
+      "ads7": 128810,
+      "net7": -128810,
+      "orders7": 0,
+      "rev30": 0,
+      "ads30": 128810,
+      "net30": -128810,
+      "orders30": 0
+    },
+    {
+      "sku": "AHC",
+      "rev": 0,
+      "net": 0,
+      "ads": 0,
+      "orders": 0,
+      "margin": 0,
+      "roas": 0,
+      "ret_pct": 0,
+      "group": "B",
+      "rev7": 0,
+      "ads7": 0,
+      "net7": 0,
+      "orders7": 0,
+      "rev30": 0,
+      "ads30": 0,
+      "net30": 0,
+      "orders30": 0
     }
   ],
   "campaigns": [
     {
-      "n": "AT01 - Doanh số - Bản sao 2",
+      "n": "AT0	 - Doanh số - Bản sao 2",
       "sku": "AT1",
       "s1": 232755,
       "s7": 2341428,
@@ -402,7 +440,7 @@
       "s30": 4450036
     },
     {
-      "n": "Lãnh tụ nữ",
+      "n": "Lánh tụ nƯỷ",
       "sku": "LTU",
       "s1": 128823,
       "s7": 1033146,
