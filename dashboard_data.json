@@ -2,30 +2,30 @@
   "report_date": "03/09/2026",
   "generated_at": "2026-09-03 auto",
   "today": {
-    "rev": 0,
-    "net": -2396504,
-    "orders": 0,
+    "rev": 12989000,
+    "net": 2762361,
+    "orders": 36,
     "ads": 2396504,
-    "hoan_pct": 0,
-    "margin_pct": 0,
-    "ads_pct": 0,
-    "roas": 0
+    "hoan_pct": 25,
+    "margin_pct": 21.3,
+    "ads_pct": 18.5,
+    "roas": 5.42
   },
   "week": {
-    "rev": 78441000,
-    "net": 5599907,
-    "orders": 241,
+    "rev": 91430000,
+    "net": 10758772,
+    "orders": 277,
     "ads": 18377717,
-    "margin_pct": 7.1,
-    "ads_pct": 23.4
+    "margin_pct": 11.8,
+    "ads_pct": 20.1
   },
   "month": {
-    "rev": 355351000,
-    "net": 45777791,
-    "orders": 1090,
+    "rev": 368340000,
+    "net": 50936596,
+    "orders": 1126,
     "ads": 65134547,
-    "margin_pct": 12.9,
-    "ads_pct": 18.3
+    "margin_pct": 13.8,
+    "ads_pct": 17.7
   },
   "trend_30": [
     {
@@ -198,9 +198,9 @@
     },
     {
       "date": "03/09",
-      "rev": 0,
-      "orders": 0,
-      "net": -2396504
+      "rev": 12989000,
+      "orders": 36,
+      "net": 2762361
     }
   ]
 }
