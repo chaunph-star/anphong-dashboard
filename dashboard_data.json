@@ -1,176 +1,33 @@
 {
-  "report_date": "02/09/2026",
+  "report_date": "03/09/2026",
+  "generated_at": "2026-09-03 auto",
   "today": {
-    "rev": 318000,
-    "net": -2752600,
-    "orders": 1,
-    "ads": 2870352,
-    "hoàn_pct": 26.94,
-    "margin_pct": -865.6,
-    "ads_pct": 902.6,
-    "roas": 0.08
+    "rev": 0,
+    "net": -2396504,
+    "orders": 0,
+    "ads": 2396504,
+    "hoan_pct": 0,
+    "margin_pct": 0,
+    "ads_pct": 0,
+    "roas": 0
   },
   "week": {
-    "rev": 67246000,
-    "net": 7642077,
-    "orders": 209,
-    "ads": 15982955,
-    "margin_pct": 11.4,
-    "ads_pct": 23.8,
-    "label": "27/8-2/9"
+    "rev": 78441000,
+    "net": 5599907,
+    "orders": 241,
+    "ads": 18377717,
+    "margin_pct": 7.1,
+    "ads_pct": 23.4
   },
   "month": {
-    "rev": 12159000,
-    "net": -925266,
-    "orders": 40,
-    "ads": 5135513,
-    "label": "Tháng 9"
-  },
-  "skus": {
-    "P03": {
-      "rev": 0,
-      "orders": 0,
-      "net": -333644,
-      "ads": 333644,
-      "roas": 0.0,
-      "group": "D",
-      "rev_7d": 14753000,
-      "orders_7d": 46,
-      "net_7d": 3765926,
-      "ads_7d": 2059589,
-      "roas_7d": 5.53
-    },
-    "TAM": {
-      "rev": 0,
-      "orders": 0,
-      "net": -150656,
-      "ads": 150656,
-      "roas": 0.0,
-      "group": "D",
-      "rev_7d": 3358000,
-      "orders_7d": 7,
-      "net_7d": 249018,
-      "ads_7d": 345337,
-      "roas_7d": 7.1
-    },
-    "TAB": {
-      "rev": 0,
-      "orders": 0,
-      "net": -133171,
-      "ads": 133171,
-      "roas": 0.0,
-      "group": "D",
-      "rev_7d": 2242000,
-      "orders_7d": 6,
-      "net_7d": -195757,
-      "ads_7d": 1030016,
-      "roas_7d": 1.57
-    },
-    "VAT": {
-      "rev": 0,
-      "orders": 0,
-      "net": -460050,
-      "ads": 460050,
-      "roas": 0.0,
-      "group": "D",
-      "rev_7d": 12357000,
-      "orders_7d": 35,
-      "net_7d": 1841694,
-      "ads_7d": 3117778,
-      "roas_7d": 3.07
-    },
-    "AT1": {
-      "rev": 0,
-      "orders": 0,
-      "net": -368252,
-      "ads": 368252,
-      "roas": 0.0,
-      "group": "D",
-      "rev_7d": 9538000,
-      "orders_7d": 38,
-      "net_7d": 1590745,
-      "ads_7d": 2368125,
-      "roas_7d": 3.35
-    },
-    "Z88": {
-      "rev": 0,
-      "orders": 0,
-      "net": -401348,
-      "ads": 401348,
-      "roas": 0.0,
-      "group": "D",
-      "rev_7d": 8875000,
-      "orders_7d": 35,
-      "net_7d": 403898,
-      "ads_7d": 2422645,
-      "roas_7d": 2.44
-    },
-    "ATH": {
-      "rev": 0,
-      "orders": 0,
-      "net": -155064,
-      "ads": 155064,
-      "roas": 0.0,
-      "group": "D",
-      "rev_7d": 3389000,
-      "orders_7d": 9,
-      "net_7d": -22991,
-      "ads_7d": 1306663,
-      "roas_7d": 1.9
-    },
-    "KIM": {
-      "rev": 0,
-      "orders": 0,
-      "net": -171094,
-      "ads": 171094,
-      "roas": 0.0,
-      "group": "D",
-      "rev_7d": 0,
-      "orders_7d": 0,
-      "net_7d": -301041,
-      "ads_7d": 301041,
-      "roas_7d": 0.0
-    },
-    "AHC": {
-      "rev": 0,
-      "orders": 0,
-      "net": -124513,
-      "ads": 124513,
-      "roas": 0.0,
-      "group": "D",
-      "rev_7d": 0,
-      "orders_7d": 0,
-      "net_7d": -124513,
-      "ads_7d": 124513,
-      "roas_7d": 0.0
-    },
-    "GS": {
-      "rev": 318000,
-      "orders": 1,
-      "net": -126619,
-      "ads": 244371,
-      "roas": 0.95,
-      "group": "D",
-      "rev_7d": 954000,
-      "orders_7d": 3,
-      "net_7d": -128787,
-      "ads_7d": 482043,
-      "roas_7d": 1.45
-    }
+    "rev": 355351000,
+    "net": 45777791,
+    "orders": 1090,
+    "ads": 65134547,
+    "margin_pct": 12.9,
+    "ads_pct": 18.3
   },
   "trend_30": [
-    {
-      "date": "04/08",
-      "rev": 9142000,
-      "orders": 29,
-      "net": 1597765
-    },
-    {
-      "date": "05/08",
-      "rev": 9404000,
-      "orders": 28,
-      "net": 2041765
-    },
     {
       "date": "06/08",
       "rev": 16567000,
@@ -335,9 +192,15 @@
     },
     {
       "date": "02/09",
-      "rev": 318000,
-      "orders": 1,
-      "net": -2752600
+      "rev": 11513000,
+      "orders": 33,
+      "net": 722335
+    },
+    {
+      "date": "03/09",
+      "rev": 0,
+      "orders": 0,
+      "net": -2396504
     }
   ]
 }
