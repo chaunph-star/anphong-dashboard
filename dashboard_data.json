@@ -1,515 +1,598 @@
 {
-  "report_date": "03/09/2026",
-  "generated_at": "2026-09-03 auto",
+  "report_date": "04/09/2026",
+  "generated_at": "2026-09-04 manual",
+  "ads_note": "Ads 4/9 ước tính từ 3/9 (cache chưa có 4/9)",
   "cogs_method": "real_unit_price",
   "today": {
-    "rev": 12989000,
-    "net": 1467514,
-    "orders": 36,
+    "rev": 11832000,
+    "net": 1213989,
+    "orders": 30,
     "ads": 2510074,
-    "hoan_pct": 23.6,
-    "margin_pct": 11.3,
-    "ads_pct": 19.3,
-    "roas": 5.17
+    "hoan_pct": 25.4,
+    "margin_pct": 10.3,
+    "ads_pct": 21.2,
+    "roas": 3.52
   },
   "week": {
-    "rev": 91430000,
-    "net": 10758772,
-    "orders": 277,
-    "ads": 18377717,
-    "margin_pct": 11.8,
-    "ads_pct": 20.1
+    "rev": 82884000,
+    "net": 16754827,
+    "orders": 241,
+    "ads": 17570518,
+    "margin_pct": 20.2,
+    "ads_pct": 21.2
   },
   "month": {
-    "rev": 368340000,
-    "net": 50936596,
-    "orders": 1126,
-    "ads": 65134547,
-    "margin_pct": 13.8,
-    "ads_pct": 17.7
+    "rev": 380172000,
+    "net": 50803461,
+    "orders": 1156,
+    "ads": 67098136,
+    "margin_pct": 13.4,
+    "ads_pct": 17.6
   },
   "trend_30": [
     {
       "date": "06/08",
       "rev": 16567000,
       "orders": 46,
-      "net": 4401765
+      "net": 4398997
     },
     {
       "date": "07/08",
       "rev": 9653000,
       "orders": 33,
-      "net": 2058765
+      "net": 2055997
     },
     {
       "date": "08/08",
       "rev": 7947000,
       "orders": 22,
-      "net": 1118765
+      "net": 1115997
     },
     {
       "date": "09/08",
       "rev": 17191000,
       "orders": 47,
-      "net": 5143765
+      "net": 5140997
     },
     {
       "date": "10/08",
       "rev": 11245000,
       "orders": 36,
-      "net": 2844765
+      "net": 2841997
     },
     {
       "date": "11/08",
       "rev": 9788000,
       "orders": 29,
-      "net": 1833765
+      "net": 1830997
     },
     {
       "date": "12/08",
       "rev": 10737000,
       "orders": 34,
-      "net": 2269765
+      "net": 2266997
     },
     {
       "date": "13/08",
       "rev": 13846000,
       "orders": 44,
-      "net": 3697765
+      "net": 3694997
     },
     {
       "date": "14/08",
       "rev": 13441000,
       "orders": 46,
-      "net": 5194765
+      "net": 5191997
     },
     {
       "date": "15/08",
       "rev": 10459000,
       "orders": 34,
-      "net": 2254765
+      "net": 2251997
     },
     {
       "date": "16/08",
       "rev": 27945000,
       "orders": 87,
-      "net": 11400765
+      "net": 11397997
     },
     {
       "date": "17/08",
       "rev": 13224000,
       "orders": 41,
-      "net": 3948765
+      "net": 3945997
     },
     {
       "date": "18/08",
       "rev": 10824000,
       "orders": 31,
-      "net": 2414765
+      "net": 2411997
     },
     {
       "date": "19/08",
       "rev": 13277000,
       "orders": 46,
-      "net": 3567765
+      "net": 3564997
     },
     {
       "date": "20/08",
       "rev": 11411000,
       "orders": 38,
-      "net": 2631765
+      "net": 2628997
     },
     {
       "date": "21/08",
       "rev": 10316000,
       "orders": 27,
-      "net": 4243765
+      "net": 4240997
     },
     {
       "date": "22/08",
       "rev": 9062000,
       "orders": 29,
-      "net": 1766765
+      "net": 1763997
     },
     {
       "date": "23/08",
       "rev": 9281000,
       "orders": 31,
-      "net": 1563765
+      "net": 1560997
     },
     {
       "date": "24/08",
       "rev": 18585000,
       "orders": 48,
-      "net": 6217765
+      "net": 6214997
     },
     {
       "date": "25/08",
       "rev": 4084000,
       "orders": 13,
-      "net": -834234
+      "net": -837002
     },
     {
       "date": "26/08",
       "rev": 18623000,
       "orders": 59,
-      "net": 6207765
+      "net": 6204997
     },
     {
       "date": "27/08",
       "rev": 10161000,
       "orders": 30,
-      "net": 1875765
+      "net": 1872997
     },
     {
       "date": "28/08",
       "rev": 10217000,
       "orders": 36,
-      "net": 2133765
+      "net": 2130997
     },
     {
       "date": "29/08",
       "rev": 10815000,
       "orders": 35,
-      "net": 2262765
+      "net": 2259997
     },
     {
       "date": "30/08",
       "rev": 13326000,
       "orders": 38,
-      "net": 3302765
+      "net": 3299997
     },
     {
       "date": "31/08",
       "rev": 10568000,
       "orders": 30,
-      "net": 2291765
+      "net": 2288997
     },
     {
       "date": "01/09",
       "rev": 11841000,
       "orders": 39,
-      "net": 2789765
+      "net": 2786997
     },
     {
       "date": "02/09",
       "rev": 11513000,
       "orders": 33,
-      "net": 722335
+      "net": 3092997
     },
     {
       "date": "03/09",
       "rev": 12989000,
       "orders": 36,
-      "net": 1467514
+      "net": 1811853
+    },
+    {
+      "date": "04/09",
+      "rev": 11832000,
+      "orders": 30,
+      "net": 1213989
     }
   ],
-  "skus_today": [
-    {
-      "sku": "VAT",
-      "orders": 8,
-      "rev": 2957000,
-      "net_rev": 2291675,
-      "cogs": 1209000,
-      "ship": 136000,
-      "ads": 306906,
-      "net": 639769,
-      "ret_rate": 22.5,
-      "roas": 7.47,
-      "margin_pct": 21.6,
-      "ads_pct": 10.4
-    },
-    {
-      "sku": "P03",
-      "orders": 6,
-      "rev": 2574000,
-      "net_rev": 1987642,
-      "cogs": 1231659,
-      "ship": 102000,
-      "ads": 263910,
-      "net": 390073,
-      "ret_rate": 22.8,
-      "roas": 7.53,
-      "margin_pct": 15.2,
-      "ads_pct": 10.3
-    },
-    {
-      "sku": "Z88",
-      "orders": 6,
-      "rev": 1900000,
-      "net_rev": 1262930,
-      "cogs": 638112,
-      "ship": 102000,
-      "ads": 301087,
-      "net": 221731,
-      "ret_rate": 33.5,
-      "roas": 4.19,
-      "margin_pct": 11.7,
-      "ads_pct": 15.8
-    },
-    {
-      "sku": "AT1",
-      "orders": 6,
-      "rev": 1374000,
-      "net_rev": 1143717,
-      "cogs": 559372,
-      "ship": 102000,
-      "ads": 322138,
-      "net": 160207,
-      "ret_rate": 16.8,
-      "roas": 3.55,
-      "margin_pct": 11.7,
-      "ads_pct": 23.4
-    },
-    {
-      "sku": "AHC",
-      "orders": 2,
-      "rev": 1157000,
-      "net_rev": 997449,
-      "cogs": 610366,
-      "ship": 34000,
-      "ads": 147085,
-      "net": 205998,
-      "ret_rate": 13.8,
-      "roas": 6.78,
-      "margin_pct": 17.8,
-      "ads_pct": 12.7
-    },
-    {
-      "sku": "ATH",
-      "orders": 2,
-      "rev": 1156000,
-      "net_rev": 844920,
-      "cogs": 423922,
-      "ship": 34000,
-      "ads": 228151,
-      "net": 158847,
-      "ret_rate": 26.9,
-      "roas": 3.7,
-      "margin_pct": 13.7,
-      "ads_pct": 19.7
-    },
-    {
-      "sku": "GS",
-      "orders": 4,
-      "rev": 1014000,
-      "net_rev": 718216,
-      "cogs": 318734,
-      "ship": 68000,
-      "ads": 206564,
-      "net": 124918,
-      "ret_rate": 29.2,
-      "roas": 3.48,
-      "margin_pct": 12.3,
-      "ads_pct": 20.4
-    },
-    {
-      "sku": "BLN",
-      "orders": 1,
-      "rev": 558000,
-      "net_rev": 464981,
-      "cogs": 241657,
-      "ship": 17000,
-      "ads": 182096,
-      "net": 24228,
-      "ret_rate": 16.7,
-      "roas": 2.55,
-      "margin_pct": 4.3,
-      "ads_pct": 32.6
-    },
-    {
-      "sku": "TAB",
-      "orders": 1,
-      "rev": 299000,
-      "net_rev": 215280,
-      "cogs": 104400,
-      "ship": 17000,
-      "ads": 141561,
-      "net": -47681,
-      "ret_rate": 28,
-      "roas": 1.52,
-      "margin_pct": -15.9,
-      "ads_pct": 47.3
-    },
-    {
-      "sku": "KIM",
-      "orders": 0,
-      "rev": 0,
-      "net_rev": 0,
-      "cogs": 0,
-      "ship": 0,
-      "ads": 101951,
-      "net": -101951,
-      "ret_rate": 60.7,
-      "roas": 0,
-      "margin_pct": 0,
-      "ads_pct": 0
-    },
+  "skus": [
     {
       "sku": "TAM",
-      "orders": 0,
-      "rev": 0,
-      "net_rev": 0,
-      "cogs": 0,
-      "ship": 0,
+      "rev": 2373000,
+      "net": 686765,
       "ads": 97738,
-      "net": -97738,
-      "ret_rate": 0,
+      "orders": 6,
+      "margin": 28.9,
+      "roas": 17.74,
+      "ret_pct": 26.9,
+      "group": "A",
+      "rev7": 2373000,
+      "ads7": 97738,
+      "net7": 686765,
+      "orders7": 6,
+      "rev30": 2373000,
+      "ads30": 97738,
+      "net30": 686765,
+      "orders30": 6
+    },
+    {
+      "sku": "AT1",
+      "rev": 1803000,
+      "net": 458076,
+      "ads": 322138,
+      "orders": 4,
+      "margin": 25.4,
+      "roas": 4.66,
+      "ret_pct": 16.8,
+      "group": "A",
+      "rev7": 10378714,
+      "ads7": 2259973,
+      "net7": 1479841,
+      "orders7": 38,
+      "rev30": 55026700,
+      "ads30": 9990090,
+      "net30": 10611955,
+      "orders30": 198
+    },
+    {
+      "sku": "Z88",
+      "rev": 1910000,
+      "net": 211378,
+      "ads": 301087,
+      "orders": 7,
+      "margin": 11.1,
+      "roas": 4.22,
+      "ret_pct": 33.5,
+      "group": "C",
+      "rev7": 11145714,
+      "ads7": 2299631,
+      "net7": 746142,
+      "orders7": 42,
+      "rev30": 57659600,
+      "ads30": 10277019,
+      "net30": 5796563,
+      "orders30": 212
+    },
+    {
+      "sku": "VAT",
+      "rev": 1951000,
+      "net": 198317,
+      "ads": 355958,
+      "orders": 3,
+      "margin": 10.2,
+      "roas": 4.25,
+      "ret_pct": 22.5,
+      "group": "C",
+      "rev7": 13123000,
+      "ads7": 2734007,
+      "net7": 1131497,
+      "orders7": 38,
+      "rev30": 58433333,
+      "ads30": 11909210,
+      "net30": 5894507,
+      "orders30": 165
+    },
+    {
+      "sku": "TAB",
+      "rev": 857000,
+      "net": 128279,
+      "ads": 141561,
+      "orders": 2,
+      "margin": 15.0,
+      "roas": 4.36,
+      "ret_pct": 28.0,
+      "group": "C",
+      "rev7": 4743286,
+      "ads7": 1029234,
+      "net7": 432103,
+      "orders7": 12,
+      "rev30": 20558633,
+      "ads30": 4446376,
+      "net30": 2021653,
+      "orders30": 50
+    },
+    {
+      "sku": "P03",
+      "rev": 1434000,
+      "net": 103611,
+      "ads": 263910,
+      "orders": 4,
+      "margin": 7.2,
+      "roas": 4.2,
+      "ret_pct": 22.8,
+      "group": "C",
+      "rev7": 17002286,
+      "ads7": 1988757,
+      "net7": 2430300,
+      "orders7": 49,
+      "rev30": 80475433,
+      "ads30": 8879062,
+      "net30": 12474539,
+      "orders30": 252
+    },
+    {
+      "sku": "VLN",
+      "rev": 419000,
+      "net": 96289,
+      "ads": 0,
+      "orders": 1,
+      "margin": 23.0,
       "roas": 0,
-      "margin_pct": 0,
-      "ads_pct": 0
+      "ret_pct": 26.9,
+      "group": "B",
+      "rev7": 419000,
+      "ads7": 0,
+      "net7": 96289,
+      "orders7": 1,
+      "rev30": 419000,
+      "ads30": 0,
+      "net30": 96289,
+      "orders30": 1
+    },
+    {
+      "sku": "ATH",
+      "rev": 578000,
+      "net": -34652,
+      "ads": 228151,
+      "orders": 1,
+      "margin": -6.0,
+      "roas": 1.85,
+      "ret_pct": 26.9,
+      "group": "D",
+      "rev7": 4191714,
+      "ads7": 1346338,
+      "net7": 70945,
+      "orders7": 10,
+      "rev30": 20619900,
+      "ads30": 5887718,
+      "net30": 944959,
+      "orders30": 50
+    },
+    {
+      "sku": "GS",
+      "rev": 507000,
+      "net": -40824,
+      "ads": 206564,
+      "orders": 2,
+      "margin": -8.1,
+      "roas": 1.74,
+      "ret_pct": 29.2,
+      "group": "D",
+      "rev7": 3718714,
+      "ads7": 798174,
+      "net7": 405723,
+      "orders7": 13,
+      "rev30": 5049367,
+      "ads30": 873769,
+      "net30": 757195,
+      "orders30": 17
+    },
+    {
+      "sku": "KIM",
+      "rev": 0,
+      "net": -101951,
+      "ads": 101951,
+      "orders": 0,
+      "margin": 0,
+      "roas": 0,
+      "ret_pct": 60.7,
+      "group": "D",
+      "rev7": 0,
+      "ads7": 448265,
+      "net7": -448265,
+      "orders7": 0,
+      "rev30": 1938167,
+      "ads30": 492516,
+      "net30": -238557,
+      "orders30": 5
+    },
+    {
+      "sku": "AHC",
+      "rev": 0,
+      "net": -147085,
+      "ads": 147085,
+      "orders": 0,
+      "margin": 0,
+      "roas": 0,
+      "ret_pct": 13.8,
+      "group": "D",
+      "rev7": 991714,
+      "ads7": 381726,
+      "net7": -79084,
+      "orders7": 2,
+      "rev30": 3027600,
+      "ads30": 411708,
+      "net30": 526396,
+      "orders30": 6
     },
     {
       "sku": "LTU",
-      "orders": 0,
       "rev": 0,
-      "net_rev": 0,
-      "cogs": 0,
-      "ship": 0,
-      "ads": 161835,
       "net": -161835,
-      "ret_rate": 25,
+      "ads": 161835,
+      "orders": 0,
+      "margin": 0,
       "roas": 0,
-      "margin_pct": 0,
-      "ads_pct": 0
+      "ret_pct": 25.0,
+      "group": "D",
+      "rev7": 0,
+      "ads7": 161835,
+      "net7": -161835,
+      "orders7": 0,
+      "rev30": 0,
+      "ads30": 161835,
+      "net30": -161835,
+      "orders30": 0
+    },
+    {
+      "sku": "BLN",
+      "rev": 0,
+      "net": -182096,
+      "ads": 182096,
+      "orders": 0,
+      "margin": 0,
+      "roas": 0,
+      "ret_pct": 16.7,
+      "group": "D",
+      "rev7": 3980571,
+      "ads7": 1346313,
+      "net7": 153335,
+      "orders7": 9,
+      "rev30": 12618867,
+      "ads30": 4195974,
+      "net30": 570288,
+      "orders30": 29
     }
   ],
-  "camps_today": [
+  "campaigns": [
     {
-      "camp": "AT01 - Doanh số - Bản sao 2",
+      "n": "AT01 - Doanh số - Bản sao 2",
       "sku": "AT1",
-      "spend": 322138,
-      "purchases": 1,
-      "doanh_thu": 229000,
-      "roas": 0.71
+      "s1": 322138,
+      "s7": 2259973,
+      "s30": 9990090
     },
     {
-      "camp": "GS Mon",
-      "sku": "GS",
-      "spend": 206564,
-      "purchases": 1,
-      "doanh_thu": 0,
-      "roas": 0
+      "n": "VAT - Tuệ An - Bản sao 2",
+      "sku": "VAT",
+      "s1": 179045,
+      "s7": 1365084,
+      "s30": 5935404
     },
     {
-      "camp": "Bà Lai",
+      "n": "Bà Lai",
       "sku": "BLN",
-      "spend": 182096,
-      "purchases": 0,
-      "doanh_thu": 0,
-      "roas": 0
+      "s1": 182096,
+      "s7": 1346313,
+      "s30": 4195974
     },
     {
-      "camp": "Z88 lượt mua",
+      "n": "Z88 lượt mua",
       "sku": "Z88",
-      "spend": 180299,
-      "purchases": 0,
-      "doanh_thu": 0,
-      "roas": 0
+      "s1": 180299,
+      "s7": 1323547,
+      "s30": 5884146
     },
     {
-      "camp": "VAT - Tuệ An - Bản sao 2",
-      "sku": "VAT",
-      "spend": 179045,
-      "purchases": 3,
-      "doanh_thu": 1334000,
-      "roas": 7.45
-    },
-    {
-      "camp": "An tịnh - Nữ (mã ATH)",
-      "sku": "ATH",
-      "spend": 178207,
-      "purchases": 2,
-      "doanh_thu": 1156000,
-      "roas": 6.49
-    },
-    {
-      "camp": "Lãnh tụ nữ",
-      "sku": "LTU",
-      "spend": 161835,
-      "purchases": 0,
-      "doanh_thu": 0,
-      "roas": 0
-    },
-    {
-      "camp": "An Hạc",
-      "sku": "AHC",
-      "spend": 147085,
-      "purchases": 1,
-      "doanh_thu": 738000,
-      "roas": 5.02
-    },
-    {
-      "camp": "Tam bảo",
+      "n": "Tam bảo",
       "sku": "TAB",
-      "spend": 141561,
-      "purchases": 1,
-      "doanh_thu": 0,
-      "roas": 0
+      "s1": 141561,
+      "s7": 1029234,
+      "s30": 4446376
     },
     {
-      "camp": "P03 Doanh Số",
-      "sku": "P03",
-      "spend": 135682,
-      "purchases": 0,
-      "doanh_thu": 0,
-      "roas": 0
+      "n": "Lãnh tụ nữ",
+      "sku": "LTU",
+      "s1": 161835,
+      "s7": 1024158,
+      "s30": 4425307
     },
     {
-      "camp": "P03 DA",
-      "sku": "P03",
-      "spend": 128228,
-      "purchases": 4,
-      "doanh_thu": 1235000,
-      "roas": 9.63
-    },
-    {
-      "camp": "VAT - Tuệ An - Bản sao",
+      "n": "VAT - Tuệ An - Bản sao",
       "sku": "VAT",
-      "spend": 127861,
-      "purchases": 0,
-      "doanh_thu": 0,
-      "roas": 0
+      "s1": 127861,
+      "s7": 1018726,
+      "s30": 4500418
     },
     {
-      "camp": "Z88 lượt mua - Bản sao",
-      "sku": "Z88",
-      "spend": 120788,
-      "purchases": 2,
-      "doanh_thu": 567000,
-      "roas": 4.69
-    },
-    {
-      "camp": "Kim An - An Hạ",
-      "sku": "KIM",
-      "spend": 101951,
-      "purchases": 1,
-      "doanh_thu": 358000,
-      "roas": 3.51
-    },
-    {
-      "camp": "Tâm",
-      "sku": "TAM",
-      "spend": 97738,
-      "purchases": 0,
-      "doanh_thu": 0,
-      "roas": 0
-    },
-    {
-      "camp": "Bài viết: Pháp phục An Tịnh",
+      "n": "An tịnh - Nữ (mã ATH)",
       "sku": "ATH",
-      "spend": 49944,
-      "purchases": 0,
-      "doanh_thu": 0,
-      "roas": 0
+      "s1": 178207,
+      "s7": 1019063,
+      "s30": 4430731
     },
     {
-      "camp": "Bài viết: Hàng mới cập bến",
-      "sku": "?",
-      "spend": 49052,
-      "purchases": 0,
-      "doanh_thu": 0,
-      "roas": 0
+      "n": "P03 Doanh Số",
+      "sku": "P03",
+      "s1": 135682,
+      "s7": 1011935,
+      "s30": 4446580
+    },
+    {
+      "n": "Z88 lượt mua - Bản sao",
+      "sku": "Z88",
+      "s1": 120788,
+      "s7": 976085,
+      "s30": 4392874
+    },
+    {
+      "n": "P03 DA",
+      "sku": "P03",
+      "s1": 128228,
+      "s7": 976823,
+      "s30": 4432481
+    },
+    {
+      "n": "GS Mon",
+      "sku": "GS",
+      "s1": 206564,
+      "s7": 798174,
+      "s30": 873769
+    },
+    {
+      "n": "Tâm",
+      "sku": "TAM",
+      "s1": 97738,
+      "s7": 478616,
+      "s30": 527284
+    },
+    {
+      "n": "Kim An - An Hạ",
+      "sku": "KIM",
+      "s1": 101951,
+      "s7": 448265,
+      "s30": 492516
+    },
+    {
+      "n": "An Hạc",
+      "sku": "AHC",
+      "s1": 147085,
+      "s7": 381726,
+      "s30": 411708
+    },
+    {
+      "n": "Bài viết: \"Hàng mới cập bến...\"",
+      "sku": "VAT",
+      "s1": 49052,
+      "s7": 350196,
+      "s30": 1473388
+    },
+    {
+      "n": "Bài viết: \"✨ Pháp phục An Tịnh...\"",
+      "sku": "ATH",
+      "s1": 49944,
+      "s7": 327274,
+      "s30": 1456986
+    },
+    {
+      "n": "Bài viết: \"VẠT HÒ LINEN ẤN NAM NỮ...\"",
+      "sku": "VLN",
+      "s1": 0,
+      "s7": 203397,
+      "s30": 1330042
+    },
+    {
+      "n": "NGO - Lượt Mua",
+      "sku": "NGO",
+      "s1": 0,
+      "s7": 0,
+      "s30": 1299125
     }
   ]
 }
