@@ -206,17 +206,17 @@
   "skus_today": [
     {
       "sku": "VAT",
-      "orders": 7,
-      "rev": 2708000,
-      "net_rev": 2031000,
-      "cogs": 853020,
-      "ship": 119000,
-      "gross": 1058980,
-      "ads_est": 507010,
-      "net_est": 551970,
-      "ads_pct": 18.7,
-      "roas": 5.34,
-      "margin_pct": 20.4
+      "orders": 8,
+      "rev": 2957000,
+      "net_rev": 2217750,
+      "cogs": 931455,
+      "ship": 136000,
+      "gross": 1150295,
+      "ads": 306906,
+      "net": 843389,
+      "ads_pct": 10.4,
+      "roas": 9.63,
+      "margin_pct": 28.5
     },
     {
       "sku": "P03",
@@ -226,11 +226,11 @@
       "cogs": 810810,
       "ship": 102000,
       "gross": 1017690,
-      "ads_est": 481922,
-      "net_est": 535768,
-      "ads_pct": 18.7,
-      "roas": 5.34,
-      "margin_pct": 20.8
+      "ads": 263910,
+      "net": 753780,
+      "ads_pct": 10.3,
+      "roas": 9.75,
+      "margin_pct": 29.3
     },
     {
       "sku": "Z88",
@@ -240,11 +240,25 @@
       "cogs": 598500,
       "ship": 102000,
       "gross": 724500,
-      "ads_est": 355731,
-      "net_est": 368769,
-      "ads_pct": 18.7,
-      "roas": 5.34,
-      "margin_pct": 19.4
+      "ads": 301087,
+      "net": 423413,
+      "ads_pct": 15.8,
+      "roas": 6.31,
+      "margin_pct": 22.3
+    },
+    {
+      "sku": "AT1",
+      "orders": 6,
+      "rev": 1374000,
+      "net_rev": 1030500,
+      "cogs": 432810,
+      "ship": 102000,
+      "gross": 495690,
+      "ads": 322138,
+      "net": 173552,
+      "ads_pct": 23.4,
+      "roas": 4.27,
+      "margin_pct": 12.6
     },
     {
       "sku": "AHC",
@@ -254,11 +268,11 @@
       "cogs": 364455,
       "ship": 34000,
       "gross": 469295,
-      "ads_est": 216621,
-      "net_est": 252674,
-      "ads_pct": 18.7,
-      "roas": 5.34,
-      "margin_pct": 21.8
+      "ads": 147085,
+      "net": 322210,
+      "ads_pct": 12.7,
+      "roas": 7.87,
+      "margin_pct": 27.8
     },
     {
       "sku": "ATH",
@@ -268,25 +282,11 @@
       "cogs": 364140,
       "ship": 34000,
       "gross": 468860,
-      "ads_est": 216434,
-      "net_est": 252426,
-      "ads_pct": 18.7,
-      "roas": 5.34,
-      "margin_pct": 21.8
-    },
-    {
-      "sku": "AT1",
-      "orders": 5,
-      "rev": 1145000,
-      "net_rev": 858750,
-      "cogs": 360675,
-      "ship": 85000,
-      "gross": 413075,
-      "ads_est": 214375,
-      "net_est": 198700,
-      "ads_pct": 18.7,
-      "roas": 5.34,
-      "margin_pct": 17.4
+      "ads": 228151,
+      "net": 240709,
+      "ads_pct": 19.7,
+      "roas": 5.07,
+      "margin_pct": 20.8
     },
     {
       "sku": "GS",
@@ -296,11 +296,11 @@
       "cogs": 319410,
       "ship": 68000,
       "gross": 373090,
-      "ads_est": 189848,
-      "net_est": 183242,
-      "ads_pct": 18.7,
-      "roas": 5.34,
-      "margin_pct": 18.1
+      "ads": 206564,
+      "net": 166526,
+      "ads_pct": 20.4,
+      "roas": 4.91,
+      "margin_pct": 16.4
     },
     {
       "sku": "LT",
@@ -310,11 +310,11 @@
       "cogs": 175770,
       "ship": 17000,
       "gross": 225730,
-      "ads_est": 104473,
-      "net_est": 121257,
-      "ads_pct": 18.7,
-      "roas": 5.34,
-      "margin_pct": 21.7
+      "ads": 161835,
+      "net": 63895,
+      "ads_pct": 29,
+      "roas": 3.45,
+      "margin_pct": 11.5
     },
     {
       "sku": "TAB",
@@ -324,45 +324,177 @@
       "cogs": 94185,
       "ship": 17000,
       "gross": 113065,
-      "ads_est": 55981,
-      "net_est": 57084,
-      "ads_pct": 18.7,
-      "roas": 5.34,
-      "margin_pct": 19.1
+      "ads": 141561,
+      "net": -28496,
+      "ads_pct": 47.3,
+      "roas": 2.11,
+      "margin_pct": -9.5
     },
     {
-      "sku": "ATB",
-      "orders": 1,
-      "rev": 289000,
-      "net_rev": 216750,
-      "cogs": 91035,
-      "ship": 17000,
-      "gross": 108715,
-      "ads_est": 54109,
-      "net_est": 54606,
-      "ads_pct": 18.7,
-      "roas": 5.34,
-      "margin_pct": 18.9
+      "sku": "KIM",
+      "orders": 0,
+      "rev": 0,
+      "net_rev": 0,
+      "cogs": 0,
+      "ship": 0,
+      "gross": 0,
+      "ads": 101951,
+      "net": -101951,
+      "ads_pct": 0,
+      "roas": 0,
+      "margin_pct": 0
+    },
+    {
+      "sku": "TAM",
+      "orders": 0,
+      "rev": 0,
+      "net_rev": 0,
+      "cogs": 0,
+      "ship": 0,
+      "gross": 0,
+      "ads": 97738,
+      "net": -97738,
+      "ads_pct": 0,
+      "roas": 0,
+      "margin_pct": 0
     }
   ],
   "camps_today": [
     {
-      "camp": "Tâm",
-      "sku_map": "TAM",
-      "spend": 96089,
-      "note": "camp TAM"
+      "camp": "AT01 - Doanh số - Bản sao 2",
+      "sku": "AT1",
+      "spend": 322138,
+      "purchases": 1,
+      "doanh_thu": 229000,
+      "roas": 0.71
+    },
+    {
+      "camp": "GS Mon",
+      "sku": "GS",
+      "spend": 206564,
+      "purchases": 1,
+      "doanh_thu": 0,
+      "roas": 0
+    },
+    {
+      "camp": "Bà Lai",
+      "sku": "?",
+      "spend": 182096,
+      "purchases": 0,
+      "doanh_thu": 0,
+      "roas": 0
+    },
+    {
+      "camp": "Z88 lượt mua",
+      "sku": "Z88",
+      "spend": 180299,
+      "purchases": 0,
+      "doanh_thu": 0,
+      "roas": 0
+    },
+    {
+      "camp": "VAT - Tuệ An - Bản sao 2",
+      "sku": "VAT",
+      "spend": 179045,
+      "purchases": 3,
+      "doanh_thu": 1334000,
+      "roas": 7.45
+    },
+    {
+      "camp": "An tịnh - Nữ (mã ATH)",
+      "sku": "ATH",
+      "spend": 178207,
+      "purchases": 2,
+      "doanh_thu": 1156000,
+      "roas": 6.49
+    },
+    {
+      "camp": "Lãnh tụ nữ",
+      "sku": "LT",
+      "spend": 161835,
+      "purchases": 0,
+      "doanh_thu": 0,
+      "roas": 0
+    },
+    {
+      "camp": "An Hạc",
+      "sku": "AHC",
+      "spend": 147085,
+      "purchases": 1,
+      "doanh_thu": 738000,
+      "roas": 5.02
     },
     {
       "camp": "Tam bảo",
-      "sku_map": "TAB",
-      "spend": 134437,
-      "note": "camp TAB"
+      "sku": "TAB",
+      "spend": 141561,
+      "purchases": 1,
+      "doanh_thu": 0,
+      "roas": 0
     },
     {
-      "camp": "Khác (chưa map)",
-      "sku_map": "mixed",
-      "spend": 2165978,
-      "note": "các camp còn lại - cần Meta MCP để chi tiết"
+      "camp": "P03 Doanh Số",
+      "sku": "P03",
+      "spend": 135682,
+      "purchases": 0,
+      "doanh_thu": 0,
+      "roas": 0
+    },
+    {
+      "camp": "P03 DA",
+      "sku": "P03",
+      "spend": 128228,
+      "purchases": 4,
+      "doanh_thu": 1235000,
+      "roas": 9.63
+    },
+    {
+      "camp": "VAT - Tuệ An - Bản sao",
+      "sku": "VAT",
+      "spend": 127861,
+      "purchases": 0,
+      "doanh_thu": 0,
+      "roas": 0
+    },
+    {
+      "camp": "Z88 lượt mua - Bản sao",
+      "sku": "Z88",
+      "spend": 120788,
+      "purchases": 2,
+      "doanh_thu": 567000,
+      "roas": 4.69
+    },
+    {
+      "camp": "Kim An - An Hạ",
+      "sku": "KIM",
+      "spend": 101951,
+      "purchases": 1,
+      "doanh_thu": 358000,
+      "roas": 3.51
+    },
+    {
+      "camp": "Tâm",
+      "sku": "TAM",
+      "spend": 97738,
+      "purchases": 0,
+      "doanh_thu": 0,
+      "roas": 0
+    },
+    {
+      "camp": "Bài viết: Pháp phục An Tịnh",
+      "sku": "ATH",
+      "spend": 49944,
+      "purchases": 0,
+      "doanh_thu": 0,
+      "roas": 0
+    },
+    {
+      "camp": "Bài viết: Hàng mới cập bến",
+      "sku": "?",
+      "spend": 49052,
+      "purchases": 0,
+      "doanh_thu": 0,
+      "roas": 0
     }
   ]
 }
