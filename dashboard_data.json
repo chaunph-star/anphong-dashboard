@@ -303,18 +303,18 @@
       "margin_pct": 16.4
     },
     {
-      "sku": "LT",
+      "sku": "BLN",
       "orders": 1,
       "rev": 558000,
       "net_rev": 418500,
       "cogs": 175770,
       "ship": 17000,
       "gross": 225730,
-      "ads": 161835,
-      "net": 63895,
-      "ads_pct": 29,
-      "roas": 3.45,
-      "margin_pct": 11.5
+      "ads": 182096,
+      "net": 43634,
+      "ads_pct": 32.6,
+      "roas": 3.07,
+      "margin_pct": 7.8
     },
     {
       "sku": "TAB",
@@ -357,6 +357,20 @@
       "ads_pct": 0,
       "roas": 0,
       "margin_pct": 0
+    },
+    {
+      "sku": "LTU",
+      "orders": 0,
+      "rev": 0,
+      "net_rev": 0,
+      "cogs": 0,
+      "ship": 0,
+      "gross": 0,
+      "ads": 161835,
+      "net": -161835,
+      "ads_pct": 0,
+      "roas": 0,
+      "margin_pct": 0
     }
   ],
   "camps_today": [
@@ -378,7 +392,7 @@
     },
     {
       "camp": "Bà Lai",
-      "sku": "?",
+      "sku": "BLN",
       "spend": 182096,
       "purchases": 0,
       "doanh_thu": 0,
@@ -410,7 +424,7 @@
     },
     {
       "camp": "Lãnh tụ nữ",
-      "sku": "LT",
+      "sku": "LTU",
       "spend": 161835,
       "purchases": 0,
       "doanh_thu": 0,
