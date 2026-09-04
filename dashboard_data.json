@@ -202,5 +202,167 @@
       "orders": 36,
       "net": 2762361
     }
+  ],
+  "skus_today": [
+    {
+      "sku": "VAT",
+      "orders": 7,
+      "rev": 2708000,
+      "net_rev": 2031000,
+      "cogs": 853020,
+      "ship": 119000,
+      "gross": 1058980,
+      "ads_est": 507010,
+      "net_est": 551970,
+      "ads_pct": 18.7,
+      "roas": 5.34,
+      "margin_pct": 20.4
+    },
+    {
+      "sku": "P03",
+      "orders": 6,
+      "rev": 2574000,
+      "net_rev": 1930500,
+      "cogs": 810810,
+      "ship": 102000,
+      "gross": 1017690,
+      "ads_est": 481922,
+      "net_est": 535768,
+      "ads_pct": 18.7,
+      "roas": 5.34,
+      "margin_pct": 20.8
+    },
+    {
+      "sku": "Z88",
+      "orders": 6,
+      "rev": 1900000,
+      "net_rev": 1425000,
+      "cogs": 598500,
+      "ship": 102000,
+      "gross": 724500,
+      "ads_est": 355731,
+      "net_est": 368769,
+      "ads_pct": 18.7,
+      "roas": 5.34,
+      "margin_pct": 19.4
+    },
+    {
+      "sku": "AHC",
+      "orders": 2,
+      "rev": 1157000,
+      "net_rev": 867750,
+      "cogs": 364455,
+      "ship": 34000,
+      "gross": 469295,
+      "ads_est": 216621,
+      "net_est": 252674,
+      "ads_pct": 18.7,
+      "roas": 5.34,
+      "margin_pct": 21.8
+    },
+    {
+      "sku": "ATH",
+      "orders": 2,
+      "rev": 1156000,
+      "net_rev": 867000,
+      "cogs": 364140,
+      "ship": 34000,
+      "gross": 468860,
+      "ads_est": 216434,
+      "net_est": 252426,
+      "ads_pct": 18.7,
+      "roas": 5.34,
+      "margin_pct": 21.8
+    },
+    {
+      "sku": "AT1",
+      "orders": 5,
+      "rev": 1145000,
+      "net_rev": 858750,
+      "cogs": 360675,
+      "ship": 85000,
+      "gross": 413075,
+      "ads_est": 214375,
+      "net_est": 198700,
+      "ads_pct": 18.7,
+      "roas": 5.34,
+      "margin_pct": 17.4
+    },
+    {
+      "sku": "GS",
+      "orders": 4,
+      "rev": 1014000,
+      "net_rev": 760500,
+      "cogs": 319410,
+      "ship": 68000,
+      "gross": 373090,
+      "ads_est": 189848,
+      "net_est": 183242,
+      "ads_pct": 18.7,
+      "roas": 5.34,
+      "margin_pct": 18.1
+    },
+    {
+      "sku": "LT",
+      "orders": 1,
+      "rev": 558000,
+      "net_rev": 418500,
+      "cogs": 175770,
+      "ship": 17000,
+      "gross": 225730,
+      "ads_est": 104473,
+      "net_est": 121257,
+      "ads_pct": 18.7,
+      "roas": 5.34,
+      "margin_pct": 21.7
+    },
+    {
+      "sku": "TAB",
+      "orders": 1,
+      "rev": 299000,
+      "net_rev": 224250,
+      "cogs": 94185,
+      "ship": 17000,
+      "gross": 113065,
+      "ads_est": 55981,
+      "net_est": 57084,
+      "ads_pct": 18.7,
+      "roas": 5.34,
+      "margin_pct": 19.1
+    },
+    {
+      "sku": "ATB",
+      "orders": 1,
+      "rev": 289000,
+      "net_rev": 216750,
+      "cogs": 91035,
+      "ship": 17000,
+      "gross": 108715,
+      "ads_est": 54109,
+      "net_est": 54606,
+      "ads_pct": 18.7,
+      "roas": 5.34,
+      "margin_pct": 18.9
+    }
+  ],
+  "camps_today": [
+    {
+      "camp": "Tâm",
+      "sku_map": "TAM",
+      "spend": 96089,
+      "note": "camp TAM"
+    },
+    {
+      "camp": "Tam bảo",
+      "sku_map": "TAB",
+      "spend": 134437,
+      "note": "camp TAB"
+    },
+    {
+      "camp": "Khác (chưa map)",
+      "sku_map": "mixed",
+      "spend": 2165978,
+      "note": "các camp còn lại - cần Meta MCP để chi tiết"
+    }
   ]
 }
