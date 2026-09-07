@@ -2,30 +2,30 @@
   "report_date": "07/09/2026",
   "generated_at": "2026-09-07 manual",
   "today": {
-    "rev": 6700000,
-    "net": 590846,
-    "orders": 19,
+    "rev": 7400000,
+    "net": 846920,
+    "orders": 21,
     "ads": 1860148,
     "hoan_pct": 22.0,
-    "margin_pct": 8.8,
-    "ads_pct": 27.8,
-    "roas": 3.6
+    "margin_pct": 11.4,
+    "ads_pct": 25.1,
+    "roas": 3.98
   },
   "week": {
-    "rev": 65997000,
-    "net": 14200422,
-    "orders": 188,
+    "rev": 66697000,
+    "net": 14456496,
+    "orders": 190,
     "ads": 16872108,
-    "margin_pct": 21.5,
-    "ads_pct": 25.6
+    "margin_pct": 21.7,
+    "ads_pct": 25.3
   },
   "month": {
-    "rev": 362370000,
-    "net": 45139169,
-    "orders": 1099,
+    "rev": 363070000,
+    "net": 45395243,
+    "orders": 1101,
     "ads": 68384924,
     "margin_pct": 12.5,
-    "ads_pct": 18.9
+    "ads_pct": 18.8
   },
   "trend_30": [
     {
@@ -204,9 +204,9 @@
     },
     {
       "date": "07/09",
-      "rev": 6700000,
-      "orders": 19,
-      "net": 590846
+      "rev": 7400000,
+      "orders": 21,
+      "net": 846920
     }
   ],
   "skus": [
@@ -240,8 +240,8 @@
       "ret_pct": 22.8,
       "group": "A",
       "rev7": 11878741,
-      "ads7": 2197738,
-      "net7": 1003037,
+      "ads7": 2209761,
+      "net7": 1015160,
       "orders7": 36,
       "rev30": 78095883,
       "ads30": 9391348,
@@ -496,7 +496,7 @@
       "s30": 405789
     },
     {
-      "n": "Bài viết: \"✨ Pháp phục An Tịnh – Thiết kế thanh lịch, mệc...\"",
+      "n": "Bài viết: \"✨ Pháp phục An Tịnh – Thiết kế thanh lịch, mặc...\"",
       "sku": "ATH",
       "s1": 59804,
       "s7": 344199,
