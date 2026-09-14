@@ -1,9 +1,9 @@
 {
   "report_date": "14/09/2026",
   "generated_at": "2026-09-15 auto",
-  "today": {"rev":8460000,"net":683468,"orders":27,"ads":2005899,"hoan_pct":25.0,"margin_pct":8.1,"ads_pct":23.7,"roas":4.22},
-  "week": {"rev":50731000,"net":2018943,"orders":160,"ads":13721969,"margin_pct":4.0,"ads_pct":27.0},
-  "month": {"rev":396872000,"net":47116127,"orders":1221,"ads":77819183,"margin_pct":11.9,"ads_pct":19.6},
+  "today": {"rev":8460000,"net":706874,"orders":27,"ads":2005899,"hoan_pct":25.0,"margin_pct":8.4,"ads_pct":23.7,"roas":4.22},
+  "week": {"rev":50731000,"net":2332343,"orders":160,"ads":13721969,"margin_pct":4.6,"ads_pct":27.0},
+  "month": {"rev":396872000,"net":48269908,"orders":1221,"ads":77819183,"margin_pct":12.2,"ads_pct":19.6},
   "trend_30": [
     {"date":"16/08","rev":27945000,"orders":87,"net":11547359},
     {"date":"17/08","rev":13224000,"orders":41,"net":4095359},
@@ -34,7 +34,7 @@
     {"date":"11/09","rev":5607000,"orders":16,"net":41425},
     {"date":"12/09","rev":5098000,"orders":16,"net":-60037},
     {"date":"13/09","rev":8824000,"orders":29,"net":628291},
-    {"date":"14/09","rev":8460000,"orders":27,"net":683468}
+    {"date":"14/09","rev":8460000,"orders":27,"net":706874}
   ],
   "skus": [
     {"sku":"GS","rev":636000,"net":56362,"ads":166648,"orders":2,"margin":8.9,"roas":3.82,"ret_pct":23.1,"group":"B","rev7":3991000,"ads7":1039339,"net7":362000,"orders7":15,"rev30":6808000,"ads30":1841790,"net30":414655,"orders30":22},
@@ -44,12 +44,13 @@
     {"sku":"P03","rev":488000,"net":-155867,"ads":269563,"orders":2,"margin":-31.9,"roas":1.81,"ret_pct":25.2,"group":"D","rev7":5721000,"ads7":2080491,"net7":-747000,"orders7":22,"rev30":75826000,"ads30":9725018,"net30":9899541,"orders30":242},
     {"sku":"LHO","rev":0,"net":0,"ads":0,"orders":0,"margin":0,"roas":0,"ret_pct":20.0,"group":"B","rev7":259000,"ads7":0,"net7":72800,"orders7":1,"rev30":259000,"ads30":0,"net30":72800,"orders30":1},
     {"sku":"LTU","rev":0,"net":0,"ads":0,"orders":0,"margin":0,"roas":0,"ret_pct":30.1,"group":"B","rev7":869000,"ads7":0,"net7":302667,"orders7":2,"rev30":869000,"ads30":0,"net30":302667,"orders30":2},
-    {"sku":"TAM","rev":618000,"net":-44969,"ads":233063,"orders":2,"margin":-7.3,"roas":2.65,"ret_pct":33.3,"group":"C","rev7":4940000,"ads7":1387600,"net7":114000,"orders7":15,"rev30":9169000,"ads30":1498605,"net30":1411782,"orders30":20},
+    {"sku":"TAM","rev":618000,"net":56065,"ads":155435,"orders":2,"margin":9.1,"roas":3.98,"ret_pct":25.0,"group":"B","rev7":4940000,"ads7":1076977,"net7":738023,"orders7":15,"rev30":9169000,"ads30":1480564,"net30":2876186,"orders30":20},
     {"sku":"ATH","rev":957000,"net":166812,"ads":163425,"orders":3,"margin":17.4,"roas":5.86,"ret_pct":27.1,"group":"A","rev7":5355000,"ads7":1146677,"net7":701000,"orders7":18,"rev30":20700000,"ads30":6172073,"net30":688943,"orders30":50},
     {"sku":"TAB","rev":0,"net":-106810,"ads":106810,"orders":0,"margin":0,"roas":0,"ret_pct":27.9,"group":"D","rev7":828000,"ads7":613027,"net7":-398000,"orders7":2,"rev30":608000,"ads30":225214,"net30":-30081,"orders30":2},
     {"sku":"AHC","rev":0,"net":0,"ads":0,"orders":0,"margin":0,"roas":0,"ret_pct":10.0,"group":"B","rev7":1576000,"ads7":795746,"net7":-301899,"orders7":3,"rev30":3162000,"ads30":795746,"net30":200570,"orders30":6},
     {"sku":"KIM","rev":0,"net":0,"ads":0,"orders":0,"margin":0,"roas":0,"ret_pct":33.3,"group":"B","rev7":0,"ads7":275800,"net7":-275800,"orders7":0,"rev30":0,"ads30":405789,"net30":-405789,"orders30":0},
-    {"sku":"VLN","rev":858000,"net":348294,"ads":65706,"orders":2,"margin":40.6,"roas":13.06,"ret_pct":25.0,"group":"A","rev7":1498000,"ads7":299600,"net7":424000,"orders7":4,"rev30":0,"ads30":48353,"net30":-163103,"orders30":1}
+    {"sku":"VLN","rev":858000,"net":348294,"ads":65706,"orders":2,"margin":40.6,"roas":13.06,"ret_pct":25.0,"group":"A","rev7":1498000,"ads7":299600,"net7":424000,"orders7":4,"rev30":0,"ads30":48353,"net30":-163103,"orders30":1},
+    {"sku":"MOC","rev":0,"net":-77628,"ads":77628,"orders":0,"margin":0,"roas":0,"ret_pct":25.0,"group":"D","rev7":0,"ads7":310623,"net7":-310623,"orders7":0,"rev30":0,"ads30":310623,"net30":-310623,"orders30":0}
   ],
   "campaigns": [
     {"n":"TAB - Tam Bảo Tịnh Tâm - Tin Nhắn","sku":"TAB","s1":106810,"s7":613027,"s30":225214},
@@ -65,8 +66,8 @@
     {"n":"Tâm","sku":"TAM","s1":155435,"s7":1076977,"s30":1480564},
     {"n":"An Hạc","sku":"AHC","s1":0,"s7":0,"s30":795746},
     {"n":"Lãnh tụ nữ","sku":"LTU","s1":0,"s7":0,"s30":4167078},
-    {"n":"Mộc Tâm - 1","sku":"TAM","s1":39392,"s7":157820,"s30":10726},
-    {"n":"Mộc Tâm - 2","sku":"TAM","s1":38236,"s7":152803,"s30":7315},
+    {"n":"Mộc Tâm - 1","sku":"MOC","s1":39392,"s7":157820,"s30":10726},
+    {"n":"Mộc Tâm - 2","sku":"MOC","s1":38236,"s7":152803,"s30":7315},
     {"n":"VLN - 1","sku":"VLN","s1":32881,"s7":152030,"s30":22619},
     {"n":"VLN - 2","sku":"VLN","s1":32825,"s7":147570,"s30":25734},
     {"n":"Bai viet: Hang moi cap ben...","sku":"ATH","s1":0,"s7":104948,"s30":11398},
